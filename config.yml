@@ -1,0 +1,32 @@
+baseURL: ""
+languageCode: en-us
+title: Amirah Khayali
+theme: PaperMod
+
+
+params:
+  ShowBreadcrumbs: true
+  ShowPostNavLinks: true
+  disableScrollToTop: false
+
+  homeInfoParams:
+   Title: 'Hello!'
+   Content: 'Welcome to my website! I will be talking about various topic but mainly about CTF. Enjoy your stay!'
+  socialIcons:
+  - name: github
+    url: https://github.com
+
+menu:
+   main:
+     - identifiers: about
+       name: About
+       url: /about/
+       weight: 10
+     - identifiers: blog
+       name: Blog
+       url: /blog/
+       weight: 20
+     - identifiers: contact
+       name: Contact
+       url: /contact/
+       weight: 30
